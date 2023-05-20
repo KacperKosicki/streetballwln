@@ -51,3 +51,35 @@
   nav ul li a:hover {
     color: gold;
   }
+  
+/* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/2191606/pexels-photo-2191606.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+  }
+  
+  .splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .page-title {
+    font-size: 50px;
+    padding: 0;
+    //font-family: 'Dancing Script', cursive;
+  }
+  
+  .page-subtitle {
+    font-size: 80px;
+    padding: 0;
+  }
